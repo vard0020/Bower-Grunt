@@ -7,7 +7,9 @@ module.exports = function (grunt) {
         copy: {
             fonts: {
                 src: 'bower_components/font-awesome/fonts/*',
-                dest: 'dist/fonts'
+                dest: 'dist/fonts',
+                expand: true,
+                flatten: true
             },
             bootstrap_css: {
                 src: 'bower_components/bootstrap/dist/css/bootstrap.css',

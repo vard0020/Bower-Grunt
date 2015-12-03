@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+/***********************************
+		REFERENCES
+font-sizes
+6.854rem
+4.236rem
+2.618rem
+1.618rem
+1rem
+0.618rem
+
+font-families
+Droid Serif, Droid Sans
+
+colors
+#000000
+#222222
+#333333
+#D4D4D4
+#CC3300
+#BADA55
+#FFFFFF
+plus the shadow for the text
+
+
+***********************************/
+
+*{
+	padding:0;
+	margin:0;
+}
+
+/***********************************
+		DEFAULTS
+***********************************/
+
+
+h1, h2, h3, h4{
+	
+}
+}
+
+h1{
+	
+}
+h2{
+	
+}
+h3{
+	
+}
+h4{
+	
+}
+p,a,li{
+    font-family: 'Droid Sans', sans-serif, 'Droid Serif', serif;
+}
+img{
+	
+	box-sizing: border-box;
+    height:20%;
+    float:left;
+}
+ul{
+	list-style-type: none;
+}
+a:link, a:visited{
+	transition: all 0.8s linear;
+}
+a:hover, a:active, a:focus{
+	text-decoration: none;
+}
+
+/***********************************
+		LAYOUT
+***********************************/
+.wrapper{
+	width:90%;
+	max-width: 1020px;
+	min-width: 400px;
+	margin:0 auto 2.0rem;
+	background-color: #d4d4d4;
+}
+.header{
+	background-color: #000;
+    min-height: 400px;
+    background-image:url( ../img/moon-header.jpg);
+    background-repeat: no-repeat;       
+}
+.main{
+}
+
+.footer{
+		background-color: #333333;
+        width: 100%;
+}
+
+/***********************************
+		LINKS 
+-for any that are different than the default
+***********************************/
+
+.footer a:link,
+.footer a:visited{
+	display: block;
+    color:#CC3300;
+	
+}
+.footer a:hover,
+.footer a:active,
+.footer a:focus{
+    color:#BADA55;	
+}
+
+
+/***********************************
+		CONTENT
+***********************************/
+.header h1{
+    
+    color: #FFFFFF;
+    
+    font-size: 6.854rem;
+    width: 50%;
+    text-align: center;
+    text-shadow: 4px 4px #333333;
+}
+.main h2{
+	padding-left:4.618rem;
+    color:#CC3300;
+    font-size:4.236rem;
+    width:50%;
+    margin-bottom:1rem;
+    text-shadow: 2px 2px #333333;
+}
+.main h3{
+	padding-left:4.618rem;
+    color:#CC3300;
+    font-size: 2.618rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px #333333;
+
+}
+.main p{
+    font-size:1rem;
+    text-align: justify;
+    padding-left: 4.618rem;
+    padding-right: 4.618rem; 
+    padding-bottom: 1rem;
+    line-height: 1.618rem;
+}
+.main img{
+	/* use border-radius to crop image */
+	/* choose a width percentage for the image too */
+    width:20%;
+    border-radius: 45%;
+}
+.left{
+	float:left;
+	margin-right:10px;
+	margin-bottom: 10px;
+}
+.footer p{
+    padding-left:4.618rem;
+    padding-bottom: 2.618rem;
+    
+}
+.footer ul{
+    float: left; width: 100%; 
+    padding-left: 6.618rem;
+    padding-top: 1.618rem;
+    padding-bottom: 1.618rem;
+    line-height: 2.618rem;
+}
+.footer li{
+   float: left; width: 50%;   
+}

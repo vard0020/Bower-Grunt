@@ -2,7 +2,6 @@ var bower_grunt = {
     
     // Application Constructor
     initialize: function() {
-        alert("test");
         this.bindEvents();
     },
     // Bind Event Listeners
